@@ -2,7 +2,7 @@
 
 ## Repo state
 
-Spec 01 (project scaffold) is complete. Vite + React + TS + Tailwind v4 project is operational with all locked-in dependencies installed. Specs 02–10 remain to be implemented.
+Specs 01–03 are complete. Vite + React + TS + Tailwind v4 scaffold is operational, the transform pipeline has emitted `public/data/` artifacts (manifest, per-year, per-country), and the typed data-access hooks (`useManifest`, `useYearData`, `useTimeseries`) are live with module-scope caches and request dedupe. Specs 04–10 remain to be implemented.
 
 ## Workflow
 
