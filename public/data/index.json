@@ -1,0 +1,827 @@
+[
+  {
+    "country": "Albania",
+    "iso": "ALB",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Algeria",
+    "iso": "DZA",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Angola",
+    "iso": "AGO",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Argentina",
+    "iso": "ARG",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Armenia",
+    "iso": "ARM",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Australia",
+    "iso": "AUS",
+    "region": "Oceania"
+  },
+  {
+    "country": "Austria",
+    "iso": "AUT",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Azerbaijan",
+    "iso": "AZE",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Bahamas, The",
+    "iso": "BHS",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Bahrain",
+    "iso": "BHR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Bangladesh",
+    "iso": "BGD",
+    "region": "South Asia"
+  },
+  {
+    "country": "Barbados",
+    "iso": "BRB",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Belarus",
+    "iso": "BLR",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Belgium",
+    "iso": "BEL",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Belize",
+    "iso": "BLZ",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Benin",
+    "iso": "BEN",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Bhutan",
+    "iso": "BTN",
+    "region": "South Asia"
+  },
+  {
+    "country": "Bolivia",
+    "iso": "BOL",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "iso": "BIH",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Botswana",
+    "iso": "BWA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Brazil",
+    "iso": "BRA",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "iso": "BRN",
+    "region": "South Asia"
+  },
+  {
+    "country": "Bulgaria",
+    "iso": "BGR",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Burkina Faso",
+    "iso": "BFA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Burundi",
+    "iso": "BDI",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Cabo Verde",
+    "iso": "CPV",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Cambodia",
+    "iso": "KHM",
+    "region": "South Asia"
+  },
+  {
+    "country": "Cameroon",
+    "iso": "CMR",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Canada",
+    "iso": "CAN",
+    "region": "North America"
+  },
+  {
+    "country": "Central African Republic",
+    "iso": "CAF",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Chad",
+    "iso": "TCD",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Chile",
+    "iso": "CHL",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "China",
+    "iso": "CHN",
+    "region": "East Asia"
+  },
+  {
+    "country": "Colombia",
+    "iso": "COL",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Comoros",
+    "iso": "COM",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Congo, Dem. Rep.",
+    "iso": "COD",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Congo, Rep.",
+    "iso": "COG",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Costa Rica",
+    "iso": "CRI",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "iso": "CIV",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Croatia",
+    "iso": "HRV",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Cyprus",
+    "iso": "CYP",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Czech Republic",
+    "iso": "CZE",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Denmark",
+    "iso": "DNK",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Djibouti",
+    "iso": "DJI",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Dominican Republic",
+    "iso": "DOM",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Ecuador",
+    "iso": "ECU",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Egypt, Arab Rep.",
+    "iso": "EGY",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "El Salvador",
+    "iso": "SLV",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Estonia",
+    "iso": "EST",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Eswatini",
+    "iso": "SWZ",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Ethiopia",
+    "iso": "ETH",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Fiji",
+    "iso": "FJI",
+    "region": "Oceania"
+  },
+  {
+    "country": "Finland",
+    "iso": "FIN",
+    "region": "Western Europe"
+  },
+  {
+    "country": "France",
+    "iso": "FRA",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Gabon",
+    "iso": "GAB",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Gambia, The",
+    "iso": "GMB",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Georgia",
+    "iso": "GEO",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Germany",
+    "iso": "DEU",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Ghana",
+    "iso": "GHA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Greece",
+    "iso": "GRC",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Guatemala",
+    "iso": "GTM",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Guinea",
+    "iso": "GIN",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "iso": "GNB",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Guyana",
+    "iso": "GUY",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Haiti",
+    "iso": "HTI",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Honduras",
+    "iso": "HND",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Hong Kong SAR, China",
+    "iso": "HKG",
+    "region": "East Asia"
+  },
+  {
+    "country": "Hungary",
+    "iso": "HUN",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Iceland",
+    "iso": "ISL",
+    "region": "Western Europe"
+  },
+  {
+    "country": "India",
+    "iso": "IND",
+    "region": "South Asia"
+  },
+  {
+    "country": "Indonesia",
+    "iso": "IDN",
+    "region": "South Asia"
+  },
+  {
+    "country": "Iran, Islamic Rep.",
+    "iso": "IRN",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Iraq",
+    "iso": "IRQ",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Ireland",
+    "iso": "IRL",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Israel",
+    "iso": "ISR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Italy",
+    "iso": "ITA",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Jamaica",
+    "iso": "JAM",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Japan",
+    "iso": "JPN",
+    "region": "East Asia"
+  },
+  {
+    "country": "Jordan",
+    "iso": "JOR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso": "KAZ",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Kenya",
+    "iso": "KEN",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Korea, Rep.",
+    "iso": "KOR",
+    "region": "East Asia"
+  },
+  {
+    "country": "Kuwait",
+    "iso": "KWT",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Kyrgyz Republic",
+    "iso": "KGZ",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Lao PDR",
+    "iso": "LAO",
+    "region": "South Asia"
+  },
+  {
+    "country": "Latvia",
+    "iso": "LVA",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Lebanon",
+    "iso": "LBN",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Lesotho",
+    "iso": "LSO",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Liberia",
+    "iso": "LBR",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Libya",
+    "iso": "LBY",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Lithuania",
+    "iso": "LTU",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Luxembourg",
+    "iso": "LUX",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Madagascar",
+    "iso": "MDG",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Malawi",
+    "iso": "MWI",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Malaysia",
+    "iso": "MYS",
+    "region": "South Asia"
+  },
+  {
+    "country": "Mali",
+    "iso": "MLI",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Malta",
+    "iso": "MLT",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Mauritania",
+    "iso": "MRT",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Mauritius",
+    "iso": "MUS",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Mexico",
+    "iso": "MEX",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Moldova",
+    "iso": "MDA",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Mongolia",
+    "iso": "MNG",
+    "region": "East Asia"
+  },
+  {
+    "country": "Montenegro",
+    "iso": "MNE",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Morocco",
+    "iso": "MAR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Mozambique",
+    "iso": "MOZ",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Myanmar",
+    "iso": "MMR",
+    "region": "South Asia"
+  },
+  {
+    "country": "Namibia",
+    "iso": "NAM",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Nepal",
+    "iso": "NPL",
+    "region": "South Asia"
+  },
+  {
+    "country": "Netherlands",
+    "iso": "NLD",
+    "region": "Western Europe"
+  },
+  {
+    "country": "New Zealand",
+    "iso": "NZL",
+    "region": "Oceania"
+  },
+  {
+    "country": "Nicaragua",
+    "iso": "NIC",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Niger",
+    "iso": "NER",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Nigeria",
+    "iso": "NGA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "North Macedonia",
+    "iso": "MKD",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Norway",
+    "iso": "NOR",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Oman",
+    "iso": "OMN",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Pakistan",
+    "iso": "PAK",
+    "region": "South Asia"
+  },
+  {
+    "country": "Panama",
+    "iso": "PAN",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Papua New Guinea",
+    "iso": "PNG",
+    "region": "Oceania"
+  },
+  {
+    "country": "Paraguay",
+    "iso": "PRY",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Peru",
+    "iso": "PER",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Philippines",
+    "iso": "PHL",
+    "region": "South Asia"
+  },
+  {
+    "country": "Poland",
+    "iso": "POL",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Portugal",
+    "iso": "PRT",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Qatar",
+    "iso": "QAT",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Romania",
+    "iso": "ROU",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Russian Federation",
+    "iso": "RUS",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Rwanda",
+    "iso": "RWA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Saudi Arabia",
+    "iso": "SAU",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Senegal",
+    "iso": "SEN",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Serbia",
+    "iso": "SRB",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Seychelles",
+    "iso": "SYC",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Sierra Leone",
+    "iso": "SLE",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Singapore",
+    "iso": "SGP",
+    "region": "South Asia"
+  },
+  {
+    "country": "Slovak Republic",
+    "iso": "SVK",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Slovenia",
+    "iso": "SVN",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "Somalia",
+    "iso": "SOM",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "South Africa",
+    "iso": "ZAF",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Spain",
+    "iso": "ESP",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Sri Lanka",
+    "iso": "LKA",
+    "region": "South Asia"
+  },
+  {
+    "country": "Sudan",
+    "iso": "SDN",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Suriname",
+    "iso": "SUR",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Sweden",
+    "iso": "SWE",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Switzerland",
+    "iso": "CHE",
+    "region": "Western Europe"
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "iso": "SYR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Taiwan",
+    "iso": "TWN",
+    "region": "East Asia"
+  },
+  {
+    "country": "Tajikistan",
+    "iso": "TJK",
+    "region": "Caucasus & Central Asia"
+  },
+  {
+    "country": "Tanzania",
+    "iso": "TZA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Thailand",
+    "iso": "THA",
+    "region": "South Asia"
+  },
+  {
+    "country": "Timor-Leste",
+    "iso": "TLS",
+    "region": "South Asia"
+  },
+  {
+    "country": "Togo",
+    "iso": "TGO",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "iso": "TTO",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Tunisia",
+    "iso": "TUN",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Turkey",
+    "iso": "TUR",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Uganda",
+    "iso": "UGA",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Ukraine",
+    "iso": "UKR",
+    "region": "Eastern Europe"
+  },
+  {
+    "country": "United Arab Emirates",
+    "iso": "ARE",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "United Kingdom",
+    "iso": "GBR",
+    "region": "Western Europe"
+  },
+  {
+    "country": "United States",
+    "iso": "USA",
+    "region": "North America"
+  },
+  {
+    "country": "Uruguay",
+    "iso": "URY",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Venezuela, RB",
+    "iso": "VEN",
+    "region": "Latin America & the Caribbean"
+  },
+  {
+    "country": "Vietnam",
+    "iso": "VNM",
+    "region": "South Asia"
+  },
+  {
+    "country": "Yemen, Rep.",
+    "iso": "YEM",
+    "region": "Middle East & North Africa"
+  },
+  {
+    "country": "Zambia",
+    "iso": "ZMB",
+    "region": "Sub-Saharan Africa"
+  },
+  {
+    "country": "Zimbabwe",
+    "iso": "ZWE",
+    "region": "Sub-Saharan Africa"
+  }
+]
