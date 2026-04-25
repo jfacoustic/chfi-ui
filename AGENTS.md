@@ -2,7 +2,7 @@
 
 ## Repo state
 
-Specs 01–03 are complete. Vite + React + TS + Tailwind v4 scaffold is operational, the transform pipeline has emitted `public/data/` artifacts (manifest, per-year, per-country), and the typed data-access hooks (`useManifest`, `useYearData`, `useTimeseries`) are live with module-scope caches and request dedupe. Specs 04–10 remain to be implemented.
+Specs 01–07 are complete. Vite + React + TS + Tailwind v4 scaffold is operational, `public/data/` and `public/topo/` artifacts are committed, and the typed data-access hooks (`useManifest`, `useYearData`, `useTimeseries`) plus the Zustand store with URL sync are live. The app shell (header/footer/error boundary), shared primitives (Tooltip, Spinner, MetricPicker, RegionFilter, YearSlider, ScoreBadge, CountryFlag, etc.), the heat-map page (with play/pause year animation, region filter, hover tooltip, click-through to country detail), and the countries-list page (sortable/filterable/paginated table with URL-synced state) are all implemented. Specs 08–10 (country detail, compare, polish) remain to be implemented.
 
 ## Workflow
 
