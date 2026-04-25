@@ -3,10 +3,11 @@ import { describe, it, expect } from "vitest";
 import App from "./App";
 
 describe("App", () => {
-  it("renders the report title", () => {
+  it("mounts the router and renders the home page", () => {
     render(<App />);
+    // Home page heading from the heat-map placeholder/feature.
     expect(
-      screen.getByText(/2025 Human Freedom Index/i),
+      screen.getByRole("heading", { name: /heat map/i }),
     ).toBeInTheDocument();
   });
 });
