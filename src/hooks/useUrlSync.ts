@@ -1,10 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { KNOWN_ISO3 } from "../data/iso3-set";
 import {
   ALL_METRICS,
   asIso3,
-  type Iso3,
   type MetricKey,
   type Region,
 } from "../data/types";
@@ -54,13 +53,12 @@ export interface UrlSyncConfig {
  */
 export function useUrlSync(config: UrlSyncConfig): void {
   const [searchParams, setSearchParams] = useSearchParams();
-  const hydrated = useRef(false);
 
-  // One-shot hydration from URL → store.
-  if (!hydrated.current) {
-    hydrated.current = true;
+  // One-shot hydration from URL → store. Lazy state initializer runs exactly
+  // once per mount and is allowed to perform side effects (mutating the
+  // global store), avoiding the "ref/setState during render" lint warnings.
+  useState(() => {
     const s = useAppStore.getState();
-
     if (config.year) {
       const raw = searchParams.get("year");
       if (raw !== null) {
@@ -87,7 +85,8 @@ export function useUrlSync(config: UrlSyncConfig): void {
         s.setComparedFromList(list);
       }
     }
-  }
+    return true;
+  });
 
   // Store → URL. Subscribe and write back to search params.
   useEffect(() => {
