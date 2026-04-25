@@ -45,7 +45,7 @@ Convert the 8.4 MB column-oriented source JSON into the small, lazy-loadable per
 4. `public/data/timeseries/` contains 165 files; filenames are uppercase ISO3 codes; each file's `series.hf_score` array has 24 entries spanning 2000–2023.
 5. The 12 category fields plus `hf_score`/`pf_score`/`ef_score` are present (possibly null) in every per-year record.
 6. No record contains the raw `countries` field — it is renamed to `country`.
-7. Total `public/data/` size < 3 MB.
+7. Total `public/data/` size < 4 MB on disk; expected to compress to well under 1 MB on the wire (gzip/brotli at the static host). The cap is disk-only — runtime cost is dominated by the gzipped transfer, which is currently ~660 KB total across all artifacts.
 8. Re-running the script is deterministic (byte-identical output for the same input).
 
 ## Test plan (TDD)

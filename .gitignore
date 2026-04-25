@@ -23,7 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Generated data (rebuild with scripts/transform.mjs)
-public/data/years/
-public/data/timeseries/
-public/data/index.json
+# Generated data is committed (per spec 02) so the app runs without a build step.
+# Rebuild with `npm run transform` whenever the source JSON changes.
