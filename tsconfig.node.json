@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "target": "ES2022",
+    "target": "es2023",
     "lib": ["ES2023"],
-    "module": "ESNext",
+    "module": "esnext",
+    "types": ["node"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -18,6 +19,7 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["vite.config.ts", "scripts"]
