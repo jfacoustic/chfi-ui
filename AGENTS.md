@@ -2,7 +2,7 @@
 
 ## Repo state
 
-Pre-implementation. Only the source dataset, README, and a planning spec exist. No `package.json`, no build tooling, no `src/` yet. Treat `specs/initial_agent_plan.md` as the source of truth for stack and architecture decisions before scaffolding.
+Spec 01 (project scaffold) is complete. Vite + React + TS + Tailwind v4 project is operational with all locked-in dependencies installed. Specs 02–10 remain to be implemented.
 
 ## Workflow
 
@@ -63,4 +63,13 @@ Vite + React + TS + Tailwind, react-router-dom, **react-simple-maps + TopoJSON**
 
 ## Commands
 
-None yet. After scaffolding, add the real commands here (install, dev, build, test, transform script) so future sessions don't guess.
+```bash
+npm install              # Install dependencies (uses --legacy-peer-deps via .npmrc)
+npm run dev              # Start Vite dev server
+npm run build            # Type-check (tsc -b) then bundle with Vite
+npm run preview          # Preview production build locally
+npm run test             # Run Vitest once
+npm run test:watch       # Run Vitest in watch mode
+npm run lint             # ESLint (flat config)
+npm run format           # Prettier format src + root configs
+```
