@@ -1,23 +1,10 @@
-import type { Region } from "../data/types";
+import { REGIONS } from "../data/regions";
 import type { RegionFilterValue } from "../store/useAppStore";
 
 interface RegionFilterProps {
   value: RegionFilterValue;
   onChange: (r: RegionFilterValue) => void;
 }
-
-export const REGIONS: readonly Region[] = [
-  "North America",
-  "Latin America & the Caribbean",
-  "Western Europe",
-  "Eastern Europe",
-  "Caucasus & Central Asia",
-  "East Asia",
-  "South Asia",
-  "Oceania",
-  "Sub-Saharan Africa",
-  "Middle East & North Africa",
-];
 
 export function RegionFilter({ value, onChange }: RegionFilterProps) {
   return (
