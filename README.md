@@ -1,5 +1,7 @@
 # Cato Human Freedom Index
 
+![Coverage](./public/coverage-badge.svg)
+
 Interactive UI for the [2025 Cato Human Freedom Index](https://www.cato.org/human-freedom-index/2025) (latest data point: 2023).
 
 ## Note on AI Usage
@@ -42,6 +44,8 @@ npm run build      # Type-check (tsc -b) and bundle for production
 npm run preview    # Preview the production build locally
 npm run test       # Run the Vitest suite once
 npm run test:watch # Vitest in watch mode
+npm run test:coverage # Run tests with V8 coverage; writes coverage/index.html and refreshes the README badge SVG
+npm run coverage:badge # Re-render public/coverage-badge.svg from an existing coverage/coverage-summary.json
 npm run lint       # ESLint (flat config)
 npm run format     # Prettier format src + root configs
 npm run transform  # Re-derive public/data/* from the source dataset (rare)
