@@ -1,6 +1,26 @@
-# Freedom Index
+# Cato Human Freedom Index
 
 Interactive UI for the [2025 Cato Human Freedom Index](https://www.cato.org/human-freedom-index/2025) (latest data point: 2023).
+
+## Note on AI Usage
+
+This project is a Saturday experiment with "vibe driven spec driven development".  I used OpenCode with Opus 4.7.
+
+Here's a high level log of my process:
+
+1. Initialized an empty git repo and added a trivial readme and the public dataset json. 
+2. I gave Opencode a list of features and had it generate a high level plan for the entire project [specs/initial_agent_plan.md](./specs/initial_agent_plan.md)
+3. I created an AGENTS.md file, including directions to use spec driven development and write tests before implmenting code.
+4. I had it break out the initial plan into more detailed specifications (also found under the specs folder).  I was curious about using an agentic team, so I generated a timeline with potential parallel processes, but ultimately decided against this approach.
+5. I meant to do this earlier, but I added instructions to AGENTS.md to commit after every file was changed with a summary of those changes and which model was used.
+6. I tried to "one-shot" the specs, but reverted back to the previous state after my internet dropped.
+7. I used a separate context window for the first two specs.  This helped me catch npm auditing issues and using an old version of node.
+8. I used the same context window ownward. My messages were: "Implement spec 3", "Implement specs 4 thru 7", and "Implement 8 thru 10".  It didn't encounter any issues.
+9. I ran the local dev environment, and it worked and all of the tests pass.  
+
+It's pretty cool how quickly this was built.  But it's definitely not a finished product.  The UI is sloppy and I'm sure that I'll find bugs if I poke it enough.  I'd like to run the same experiment with smaller models.
+
+## Features
 
 - **Heat map** — world choropleth colored by quartile, with a play/pause year animation across 2000–2023, region filter, hover tooltip, and click-through to country detail.
 - **Countries list** — sortable, searchable, paginated table of all 165 countries; URL-synced state means any view is shareable.
