@@ -1,7 +1,7 @@
 export function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-white mt-12">
-      <div className="max-w-6xl mx-auto px-4 py-4 text-xs text-gray-600 flex flex-wrap items-center justify-between gap-2">
+    <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 mt-12">
+      <div className="max-w-6xl mx-auto px-4 py-4 text-xs text-gray-600 dark:text-gray-300 flex flex-wrap items-center justify-between gap-2">
         <span>
           Data:{" "}
           <a
