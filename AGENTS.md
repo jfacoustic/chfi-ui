@@ -70,6 +70,8 @@ npm run build            # Type-check (tsc -b) then bundle with Vite
 npm run preview          # Preview production build locally
 npm run test             # Run Vitest once
 npm run test:watch       # Run Vitest in watch mode
+npm run test:coverage    # Run Vitest with V8 coverage; refreshes public/coverage-badge.svg
+npm run coverage:badge   # Re-render the README coverage badge from an existing summary
 npm run lint             # ESLint (flat config)
 npm run format           # Prettier format src + root configs
 ```
