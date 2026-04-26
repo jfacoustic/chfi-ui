@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Class-based dark mode: any descendant of an element with `.dark` (we set
+   it on <html>) gets the `dark:` variant applied. This matches the
+   Tailwind v4 documented pattern for opt-in toggles. */
+@custom-variant dark (&:where(.dark, .dark *));
